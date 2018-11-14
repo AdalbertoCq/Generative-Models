@@ -48,4 +48,12 @@ This is a repository to keep track of the papers on different generative models.
   * ["Self-Attention Generative Adversarial Networks" Zhang H, et al. 2018](https://arxiv.org/abs/1805.08318)
 
 ## Autoregressive Models.
+* ["Neural Autoregressive Distribution Estimation" Benigno Uria, Marc-Alexandre Côté, Karol Gregor, Iain Murray, Hugo Larochelle. 2016](https://arxiv.org/abs/1605.02226)
+* ["RNADE: The real-valued neural autoregressive density-estimator" Benigno Uria, Iain Murray, Hugo Larochelle. 2014](https://arxiv.org/abs/1306.0186)
+* ["MADE: Masked Autoencoder for Distribution Estimation" Mathieu Germain, Karol Gregor, Iain Murray, Hugo Larochelle. 2015](https://arxiv.org/abs/1502.03509)
+* ["Pixel Recurrent Neural Networks" Aaron van den Oord, Nal Kalchbrenner, Koray Kavukcuoglu. 2016](https://arxiv.org/abs/1601.06759)
+* ["Conditional Image Generation with PixelCNN Decoders" Aaron van den Oord, Nal Kalchbrenner, Koray Kavukcuoglu. 2016](https://arxiv.org/abs/1606.05328)
+* ["PixelCNN++: Improving the PixelCNN with Discretized Logistic Mixture Likelihood and Other Modifications" Tim Salimans, Andrej Karpathy, Xi Chen, Diederik P. Kingma. 2017](https://arxiv.org/abs/1701.05517)
+* ["WaveNet: A Generative Model for Raw Audio" Aaron van den Oord, Sander Dieleman, Heiga Zen, Karen Simonyan, Oriol Vinyals, Alex Graves, Nal Kalchbrenner, Andrew Senior, Koray Kavukcuoglu. 2016](https://arxiv.org/pdf/1609.03499.pdf)
+
 ## Normalizing Flows.
