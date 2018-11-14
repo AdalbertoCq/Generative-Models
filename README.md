@@ -11,6 +11,9 @@ This is a repository to keep track of the papers on different generative models.
 
 * Wasserstein Auto-Encoders:
   * ["Wasserstein Auto-Encoders" Tolstikhin I, Bousquet O Gelly S, Schölkopf B, et al. 2018](https://arxiv.org/pdf/1711.01558.pdf)
+  
+ * VAE + GAN:
+  * ["Autoencoding beyond pixels using a learned similarity metric" Anders Boesen Lindbo Larsen, Søren Kaae Sønderby, Hugo Larochelle, Ole Winther. 2015](https://arxiv.org/abs/1512.09300)
  
 ## GANs.
 * ["Generative Adversarial Networks" Goodfellow I, et al. 2014](https://arxiv.org/pdf/1406.2661.pdf)
@@ -60,6 +63,16 @@ This is a repository to keep track of the papers on different generative models.
 * ["WaveNet: A Generative Model for Raw Audio" Aaron van den Oord, Sander Dieleman, Heiga Zen, Karen Simonyan, Oriol Vinyals, Alex Graves, Nal Kalchbrenner, Andrew Senior, Koray Kavukcuoglu. 2016](https://arxiv.org/pdf/1609.03499.pdf)
 
 ## Normalizing Flows.
+* ["Glow: Generative Flow with Invertible 1x1 Convolutions" Kingma D Dhariwal P. 2018](https://arxiv.org/abs/1807.03039)
+* ["NICE: Non-linear Independent Components Estimation" Dinh L Krueger D Bengio Y. 2014](https://arxiv.org/abs/1410.8516)
+* ["Density estimation using Real NVP" Dinh L Sohl-Dickstein J Bengio S. 2016](https://arxiv.org/abs/1605.08803)
+
+* VAE and Normalizing Flows:
+ * ["Improving Variational Auto-Encoders using Householder Flow" Tomczak J Welling M. 2016](https://arxiv.org/abs/1611.09630)
+ * ["Flow-GAN: Combining Maximum Likelihood and Adversarial Learning in Generative Models" Grover A Dhar M Ermon S. 2017](https://arxiv.org/abs/1505.05770)
+
+* GAN and Normalizing Flows:
+ * ["Variational Inference with Normalizing Flows" Rezende D Mohamed S. 2015](https://arxiv.org/abs/1705.08868)
 
 ## Evaluation of Generative Models.
 * ["A note on the evaluation of generative models" Theis L Oord A Bethge M. 2015](https://arxiv.org/abs/1511.01844)
