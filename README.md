@@ -68,11 +68,11 @@ This is a repository to keep track of the papers on different generative models.
 * ["Density estimation using Real NVP" Dinh L Sohl-Dickstein J Bengio S. 2016](https://arxiv.org/abs/1605.08803)
 
 * VAE and Normalizing Flows:
- * ["Improving Variational Auto-Encoders using Householder Flow" Tomczak J Welling M. 2016](https://arxiv.org/abs/1611.09630)
- * ["Flow-GAN: Combining Maximum Likelihood and Adversarial Learning in Generative Models" Grover A Dhar M Ermon S. 2017](https://arxiv.org/abs/1505.05770)
+  * ["Improving Variational Auto-Encoders using Householder Flow" Tomczak J Welling M. 2016](https://arxiv.org/abs/1611.09630)
+  * ["Flow-GAN: Combining Maximum Likelihood and Adversarial Learning in Generative Models" Grover A Dhar M Ermon S. 2017](https://arxiv.org/abs/1505.05770)
 
 * GAN and Normalizing Flows:
- * ["Variational Inference with Normalizing Flows" Rezende D Mohamed S. 2015](https://arxiv.org/abs/1705.08868)
+  * ["Variational Inference with Normalizing Flows" Rezende D Mohamed S. 2015](https://arxiv.org/abs/1705.08868)
 
 ## Evaluation of Generative Models.
 * ["A note on the evaluation of generative models" Theis L Oord A Bethge M. 2015](https://arxiv.org/abs/1511.01844)
