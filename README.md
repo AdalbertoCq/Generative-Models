@@ -31,6 +31,9 @@ This is a repository to keep track of the papers on different generative models.
 * Cycle GANs:
   * ["Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks" Zhu J, et al. 2017](https://arxiv.org/abs/1703.10593)
   
+* Least Squares GANs (LSGANs):
+  * ["Least Squares Generative Adversarial Networks" Xudong Mao, Qing Li, Haoran Xie, Raymond Y.K. Lau, Zhen Wang, Stephen Paul Smolley. 2017](https://arxiv.org/abs/1611.04076)
+ 
 * InfoGANS:
   * [" InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets" Chen X, et al. 2016](https://arxiv.org/abs/1701.07875)
   
@@ -57,3 +60,15 @@ This is a repository to keep track of the papers on different generative models.
 * ["WaveNet: A Generative Model for Raw Audio" Aaron van den Oord, Sander Dieleman, Heiga Zen, Karen Simonyan, Oriol Vinyals, Alex Graves, Nal Kalchbrenner, Andrew Senior, Koray Kavukcuoglu. 2016](https://arxiv.org/pdf/1609.03499.pdf)
 
 ## Normalizing Flows.
+
+## Evaluation of Generative Models.
+* ["A note on the evaluation of generative models" Theis L Oord A Bethge M. 2015](https://arxiv.org/abs/1511.01844)
+* ["Pros and Cons of GAN Evaluation Measures" Borji A. 2018](https://http://arxiv.org/abs/1802.03446)
+* ["Are GANs Created Equal? A Large-Scale Study" Mario Lucic, Karol Kurach, Marcin Michalski, Sylvain Gelly, Olivier Bousquet
+. 2018](https://arxiv.org/abs/1711.10337)
+* [Stanford CS236: Deep Generative Models: Evaluating Generative Models](http://cs236.stanford.edu/assets/slides/cs236_lecture11.pdf)
+
+
+
+
+
