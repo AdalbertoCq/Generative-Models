@@ -19,6 +19,7 @@ This is a repository to keep track of the papers on different generative models.
 
 * ["Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Supervised Learning" Miyato T, et al. 2017](https://arxiv.org/abs/1704.03976)
 * ["Large Scale GAN Training for High Fidelity Natural Image Synthesis" Brock A, et al. 2018](https://arxiv.org/abs/1809.11096)
+* ["Amortised MAP Inference for Image Super-resolution" Sønderby C, Caballero J, Theis L, Shi W, Huszár F. 2016](https://arxiv.org/abs/1610.04490)
 
 * Conditional GANs:
   * ["Conditional Generative Nets" Mirza M, et al. 2014](https://arxiv.org/abs/1411.1784)
