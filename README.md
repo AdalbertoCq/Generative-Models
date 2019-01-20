@@ -1,57 +1,58 @@
 # Generative-Models
 This is a repository to keep track of the papers on different generative models.
 
+## GANs.
+* Original GAN: "Generative Adversarial Networks" Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio. 2014. [Arxiv](https://arxiv.org/pdf/1406.2661.pdf).
+* DCGAN: "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks" Alec Radford, Luke Metz, Soumith Chintala. 2016. [Arxiv](https://arxiv.org/abs/1511.06434). [Code]().
+
+* Cost function improvement proposals:
+  * CGAN: "Conditional Generative Nets" Mehdi Mirza, Simon Osindero. 2014. [Arxiv](https://arxiv.org/abs/1411.1784). [Code]().
+  * ACGAN: "Conditional Image Synthesis With Auxiliary Classifier GANs" Augustus Odena, Christopher Olah, Jonathon Shlens. 2016. [Arxiv](https://arxiv.org/abs/1610.09585). [Code]().
+  * InfoGAN: "InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets" Xi Chen, Yan Duan, Rein Houthooft, John Schulman, Ilya Sutskever, Pieter Abbeel. 2016. [Arxiv](https://arxiv.org/abs/1606.03657). [Code]().
+  * LSGAN: "Least Squares Generative Adversarial Networks" Xudong Mao, Qing Li, Haoran Xie, Raymond Y.K. Lau, Zhen Wang, Stephen Paul Smolley. 2017. [Arxiv](https://arxiv.org/abs/1611.04076). [Code]().
+  * WGAN: "Wassertein GAN" Martin Arjovsky, Soumith Chintala, Léon Bottou. 2017. [Arxiv](https://arxiv.org/abs/1701.07875). [Code]().
+  * WGAN-GP: "Improved Training of Wasserstein GANs" Ishaan Gulrajani, Faruk Ahmed, Martin Arjovsky, Vincent Dumoulin, Aaron Courville. 2017. [Arxiv](https://arxiv.org/abs/1704.00028). [Code]().
+  * EBGAN: "Energy-based Generative Adversarial Network" Junbo Zhao, Michael Mathieu, Yann LeCun. 2016. [Arxiv](https://arxiv.org/abs/1609.03126). [Code]().
+  * BEGAN: "BEGAN: Boundary Equilibrium Generative Adversarial Networks" David Berthelot, Thomas Schumm, Luke Metz
+. 2017. [Arxiv](https://arxiv.org/abs/1703.10717). [Code]().
+  * RSGAN & RaSGAN: "The relativistic discriminator: a key element missing from standard GAN" Alexia Jolicoeur-Martineau. 2018. [Arxiv](https://arxiv.org/abs/1807.00734). [Code]().
+  * DRAGAN: "On Convergence and Stability of GANs" Naveen Kodali, Jacob Abernethy, James Hays, Zsolt Kira
+. 2017. [Arxiv](https://arxiv.org/abs/1705.07215). [Code]().
+  * Spectral GAN: "Spectral Normalization for Generative Adversarial Networks" Takeru Miyato, Toshiki Kataoka, Masanori Koyama, Yuichi Yoshida. 2018. [OpenReview](https://openreview.net/forum?id=B1QRgziT-). [Code]().
+  * BigGAN: "Large Scale GAN Training for High Fidelity Natural Image Synthesis" Andrew Brock, Jeff Donahue, Karen Simonyan
+. 2018. [Arxiv](https://arxiv.org/abs/1809.11096). [Code]().
+  
+*  Network changes proposals:
+  * StackGAN: "StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks" Han Zhang, Tao Xu, Hongsheng Li, Shaoting Zhang, Xiaogang Wang, Xiaolei Huang, Dimitris Metaxas. 2016. [Arxiv](https://arxiv.org/abs/1612.03242). [Code]().
+  * SaGAN: "Self-Attention Generative Adversarial Networks" Han Zhang, Ian Goodfellow, Dimitris Metaxas, Augustus Odena
+. 2018. [Arxiv](https://arxiv.org/abs/1805.08318). [Code]().
+  * ProGAN: "Progressive Growing of GANs for Improved Quality, Stability, and Variation" Tero Karras, Timo Aila, Samuli Laine, Jaakko Lehtinen. 2018. [Arxiv](https://arxiv.org/abs/1710.10196). [Code]().
+  * Style-GAN: "A Style-Based Generator Architecture for Generative Adversarial Networks" Tero Karras, Samuli Laine, Timo Aila. 2018. [Arxiv](https://arxiv.org/abs/1812.04948). [Code]().
+  
+* Applications:
+  * Cycle-GANs: "Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks" Jun-Yan Zhu, Taesung Park, Phillip Isola, Alexei A. Efros. 2017. [Arxiv](https://arxiv.org/abs/1703.10593). [Code]().
+  * SRGANs: "Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network" Christian Ledig, Lucas Theis, Ferenc Huszar, Jose Caballero, Andrew Cunningham, Alejandro Acosta, Andrew Aitken, Alykhan Tejani, Johannes Totz, Zehan Wang, Wenzhe Shi. 2016. [Arxiv](https://arxiv.org/abs/1609.04802). [Code]().
+  * ESRGAN: "ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks" Xintao Wang, Ke Yu, Shixiang Wu, Jinjin Gu, Yihao Liu, Chao Dong, Chen Change Loy, Yu Qiao, Xiaoou Tang. 2018. [Arxiv](https://arxiv.org/abs/1809.00219). [Code]().
+  * GAWWN: "Learning What and Where to Draw" Scott Reed, Zeynep Akata, Santosh Mohan, Samuel Tenka, Bernt Schiele, Honglak Lee. 2016 [Arxiv](https://arxiv.org/abs/1610.02454). [Code]().
+
+* GAN Training & Studies:
+  * "Improved Techniques for Training GANs" Tim Salimans, Ian Goodfellow, Wojciech Zaremba, Vicki Cheung, Alec Radford, Xi Chen. 2016. [Arxiv](https://arxiv.org/abs/1606.03498).
+  * "Are GANs Created Equal? A Large-Scale Study" Mario Lucic, Karol Kurach, Marcin Michalski, Sylvain Gelly, Olivier Bousquet
+. 2017. [Arxiv](https://arxiv.org/abs/1711.10337).
+  * "Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Supervised Learning" Takeru Miyato, Shin-ichi Maeda, Masanori Koyama, Shin Ishii. 2017. [Arxiv](https://arxiv.org/abs/1704.03976).
+  
+ 
+* ["Large Scale GAN Training for High Fidelity Natural Image Synthesis" Brock A, et al. 2018](https://arxiv.org/abs/1809.11096)
+* ["Amortised MAP Inference for Image Super-resolution" Sønderby C, Caballero J, Theis L, Shi W, Huszár F. 2016](https://arxiv.org/abs/1610.04490)
+
 
 ## VAEs.
 * ["Auto-Encoding Variational Bayes" Welling M, et al. 2013](arxiv.org/abs/1312.6114)
 * ["Tutorial on Variational Autoencoders" Doersch C, et al. 2016](https://arxiv.org/abs/1606.05908)
-
-* Conditional VAEs:
-  * ["Learning Structured Output Representation using Deep Conditional Generative Models" Sohn K, Yan X, Lee H, et al. 2014](https://papers.nips.cc/paper/5775-learning-structured-output-representation-using-deep-conditional-generative-models)
-
-* Wasserstein Auto-Encoders:
-  * ["Wasserstein Auto-Encoders" Tolstikhin I, Bousquet O Gelly S, Schölkopf B, et al. 2018](https://arxiv.org/pdf/1711.01558.pdf)
-  
- * VAE + GAN:
-  * ["Autoencoding beyond pixels using a learned similarity metric" Anders Boesen Lindbo Larsen, Søren Kaae Sønderby, Hugo Larochelle, Ole Winther. 2015](https://arxiv.org/abs/1512.09300)
+* ["Learning Structured Output Representation using Deep Conditional Generative Models" Sohn K, Yan X, Lee H, et al. 2014](https://papers.nips.cc/paper/5775-learning-structured-output-representation-using-deep-conditional-generative-models)
+* ["Wasserstein Auto-Encoders" Tolstikhin I, Bousquet O Gelly S, Schölkopf B, et al. 2018](https://arxiv.org/pdf/1711.01558.pdf)
+ * ["Autoencoding beyond pixels using a learned similarity metric" Anders Boesen Lindbo Larsen, Søren Kaae Sønderby, Hugo Larochelle, Ole Winther. 2015](https://arxiv.org/abs/1512.09300)
  
-## GANs.
-* ["Generative Adversarial Networks" Goodfellow I, et al. 2014](https://arxiv.org/pdf/1406.2661.pdf)
-* ["Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks" Radford A, et al. 2016](https://arxiv.org/abs/1511.06434)
-* ["Improved Techniques for Training GANs" Salimans T, et al. 2016](https://arxiv.org/pdf/1606.03498v1.pdf)
-
-* ["Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Supervised Learning" Miyato T, et al. 2017](https://arxiv.org/abs/1704.03976)
-* ["Large Scale GAN Training for High Fidelity Natural Image Synthesis" Brock A, et al. 2018](https://arxiv.org/abs/1809.11096)
-* ["Amortised MAP Inference for Image Super-resolution" Sønderby C, Caballero J, Theis L, Shi W, Huszár F. 2016](https://arxiv.org/abs/1610.04490)
-
-* Conditional GANs:
-  * ["Conditional Generative Nets" Mirza M, et al. 2014](https://arxiv.org/abs/1411.1784)
-  * ["Conditional Image Synthesis With Auxiliary Classifier GANs" Odena A, et al. 2016](https://arxiv.org/abs/1610.09585)
-  * ["Learning What and Where to Draw" Reed S, et al. 2016](https://arxiv.org/abs/1610.02454)
-  * ["Stacked Generative Adversarial Networks" Huang X, et al. 2016](arxiv.org/abs/1612.04357)
-  * ["StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks" Zhang H, et al. 2016](https://arxiv.org/abs/1612.03242)
- 
-* Cycle GANs:
-  * ["Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks" Zhu J, et al. 2017](https://arxiv.org/abs/1703.10593)
-  
-* Least Squares GANs (LSGANs):
-  * ["Least Squares Generative Adversarial Networks" Xudong Mao, Qing Li, Haoran Xie, Raymond Y.K. Lau, Zhen Wang, Stephen Paul Smolley. 2017](https://arxiv.org/abs/1611.04076)
- 
-* InfoGANS:
-  * [" InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets" Chen X, et al. 2016](https://arxiv.org/abs/1701.07875)
-  
-* Wassertein GANs (WGANs): 
-  * ["Wassertein GAN" Arjovsky M, et al. 2017](https://arxiv.org/abs/1701.07875)
-  * ["Improved Training of Wasserstein GANs" Gulrajani I, et al. 2017](https://arxiv.org/abs/1704.00028)
-
-* Boundary Equilibrium GANs (BEGANs):
-  * [" BEGAN: Boundary Equilibrium Generative Adversarial Networks" Berthelot D, et al. 2017](https://arxiv.org/abs/1703.10717)
-  
-* Progressive growing of GANs (ProGANs):
-  * ["Progressive Growing of GANs for Improved Quality, Stability, and Variation" Karras T, et al. 2017](https://arxiv.org/abs/1710.10196)
-
-* Self-Attention GAN:
-  * ["Self-Attention Generative Adversarial Networks" Zhang H, et al. 2018](https://arxiv.org/abs/1805.08318)
 
 ## Autoregressive Models.
 * ["Neural Autoregressive Distribution Estimation" Benigno Uria, Marc-Alexandre Côté, Karol Gregor, Iain Murray, Hugo Larochelle. 2016](https://arxiv.org/abs/1605.02226)
@@ -77,8 +78,6 @@ This is a repository to keep track of the papers on different generative models.
 ## Evaluation of Generative Models.
 * ["A note on the evaluation of generative models" Theis L Oord A Bethge M. 2015](https://arxiv.org/abs/1511.01844)
 * ["Pros and Cons of GAN Evaluation Measures" Borji A. 2018](https://http://arxiv.org/abs/1802.03446)
-* ["Are GANs Created Equal? A Large-Scale Study" Mario Lucic, Karol Kurach, Marcin Michalski, Sylvain Gelly, Olivier Bousquet
-. 2018](https://arxiv.org/abs/1711.10337)
 * [Stanford CS236: Deep Generative Models: Evaluating Generative Models](http://cs236.stanford.edu/assets/slides/cs236_lecture11.pdf)
 
 
