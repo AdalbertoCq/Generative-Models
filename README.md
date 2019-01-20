@@ -15,7 +15,7 @@ This is a repository papers and code on different generative models.
   * EBGAN: 'Energy-based Generative Adversarial Network' Junbo Zhao, Michael Mathieu, Yann LeCun. 2016. [[Arxiv]](https://arxiv.org/abs/1609.03126). [[Code]]().
   * BEGAN: 'BEGAN: Boundary Equilibrium Generative Adversarial Networks' David Berthelot, Thomas Schumm, Luke Metz
 . 2017. [[Arxiv]](https://arxiv.org/abs/1703.10717). [[Code]]().
-  * RSGAN & RaSGAN: 'The relativistic discriminator: a key element missing from standard GAN' Alexia Jolicoeur-Martineau. 2018. [[Arxiv]](https://arxiv.org/abs/1807.00734). [RaSGAN Code](https://github.com/AdalbertoCq/Generative-Models/blob/master/GANs/RaSGAN.py). [RaLSGAN Code](https://github.com/AdalbertoCq/Generative-Models/blob/master/GANs/RaLSGAN.py). [RaSGAN-GP Code](https://github.com/AdalbertoCq/Generative-Models/blob/master/GANs/RaSGAN_FP.py).
+  * RSGAN & RaSGAN: 'The relativistic discriminator: a key element missing from standard GAN' Alexia Jolicoeur-Martineau. 2018. [[Arxiv]](https://arxiv.org/abs/1807.00734). [[RaSGAN Code]](https://github.com/AdalbertoCq/Generative-Models/blob/master/GANs/RaSGAN.py). [[RaLSGAN Code]](https://github.com/AdalbertoCq/Generative-Models/blob/master/GANs/RaLSGAN.py). [[RaSGAN-GP Code]](https://github.com/AdalbertoCq/Generative-Models/blob/master/GANs/RaSGAN_FP.py).
   * DRAGAN: 'On Convergence and Stability of GANs' Naveen Kodali, Jacob Abernethy, James Hays, Zsolt Kira
 . 2017. [[Arxiv]](https://arxiv.org/abs/1705.07215). [[Code]]().
   * Spectral GAN: 'Spectral Normalization for Generative Adversarial Networks' Takeru Miyato, Toshiki Kataoka, Masanori Koyama, Yuichi Yoshida. 2018. [OpenReview](https://openreview.net/forum?id=B1QRgziT-). [[Code]]().
@@ -75,8 +75,3 @@ This is a repository papers and code on different generative models.
 * Frechet Inception Distance: 'GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium' Martin Heusel, Hubert Ramsauer, Thomas Unterthiner, Bernhard Nessler, Sepp Hochreiter. 2017. [[Arxiv]](https://arxiv.org/abs/1706.08500). 
 * 'A note on the evaluation of generative models' Theis L Oord A Bethge M. 2015. [[Arxiv]](https://arxiv.org/abs/1511.01844).
 * 'Stanford CS236: Deep Generative Models: Evaluating Generative Models' [[PDF]](http://cs236.stanford.edu/assets/slides/cs236_lecture11.pdf).
-
-
-
-
-
