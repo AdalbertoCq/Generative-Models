@@ -43,38 +43,38 @@ This is a repository papers and code on different generative models.
    
 
 ## VAEs.
-* VAE: 'Auto-Encoding Variational Bayes' Diederik P Kingma, Max Welling. 2013. [[Arvix]](arxiv.org/abs/1312.6114). [[Code]]().
+* VAE: 
+    * 'Auto-Encoding Variational Bayes' Diederik P Kingma, Max Welling. 2013. [[Arvix]](arxiv.org/abs/1312.6114). [[Code]]().
+    * 'Tutorial on Variational Autoencoders' Carl Doersch. 2016. [[Arvix]](https://arxiv.org/abs/1606.05908).
 * Wassertein VAE: 'Wasserstein Auto-Encoders' Ilya Tolstikhin, Olivier Bousquet, Sylvain Gelly, Bernhard Schoelkopf. 2018. [[Arvix]](https://arxiv.org/pdf/1711.01558.pdf). [[Code]]().
-* ['Tutorial on Variational Autoencoders' Doersch C, et al. 2016](https://arxiv.org/abs/1606.05908)
-* ['Learning Structured Output Representation using Deep Conditional Generative Models' Sohn K, Yan X, Lee H, et al. 2014](https://papers.nips.cc/paper/5775-learning-structured-output-representation-using-deep-conditional-generative-models)
-* ['Autoencoding beyond pixels using a learned similarity metric' Anders Boesen Lindbo Larsen, Søren Kaae Sønderby, Hugo Larochelle, Ole Winther. 2015](https://arxiv.org/abs/1512.09300)
+* CVAE: 'Learning Structured Output Representation using Deep Conditional Generative Models' Sohn K, Yan X, Lee H, et al. 2014. [[Arvix]](https://papers.nips.cc/paper/5775-learning-structured-output-representation-using-deep-conditional-generative-models). [[Code]]().
+* VAE-GAN: 'Autoencoding beyond pixels using a learned similarity metric' Anders Boesen Lindbo Larsen, Søren Kaae Sønderby, Hugo Larochelle, Ole Winther. 2015 [[Arxiv]](https://arxiv.org/abs/1512.09300).
  
 
 ## Autoregressive Models.
-* ['Neural Autoregressive Distribution Estimation' Benigno Uria, Marc-Alexandre Côté, Karol Gregor, Iain Murray, Hugo Larochelle. 2016](https://arxiv.org/abs/1605.02226)
-* ['RNADE: The real-valued neural autoregressive density-estimator' Benigno Uria, Iain Murray, Hugo Larochelle. 2014](https://arxiv.org/abs/1306.0186)
-* ['MADE: Masked Autoencoder for Distribution Estimation' Mathieu Germain, Karol Gregor, Iain Murray, Hugo Larochelle. 2015](https://arxiv.org/abs/1502.03509)
-* ['Pixel Recurrent Neural Networks' Aaron van den Oord, Nal Kalchbrenner, Koray Kavukcuoglu. 2016](https://arxiv.org/abs/1601.06759)
-* ['Conditional Image Generation with PixelCNN Decoders' Aaron van den Oord, Nal Kalchbrenner, Koray Kavukcuoglu. 2016](https://arxiv.org/abs/1606.05328)
-* ['PixelCNN++: Improving the PixelCNN with Discretized Logistic Mixture Likelihood and Other Modifications' Tim Salimans, Andrej Karpathy, Xi Chen, Diederik P. Kingma. 2017](https://arxiv.org/abs/1701.05517)
-* ['WaveNet: A Generative Model for Raw Audio' Aaron van den Oord, Sander Dieleman, Heiga Zen, Karen Simonyan, Oriol Vinyals, Alex Graves, Nal Kalchbrenner, Andrew Senior, Koray Kavukcuoglu. 2016](https://arxiv.org/pdf/1609.03499.pdf)
+* NADE: 'Neural Autoregressive Distribution Estimation' Benigno Uria, Marc-Alexandre Côté, Karol Gregor, Iain Murray, Hugo Larochelle. 2016. [[Arxiv]](https://arxiv.org/abs/1605.02226).
+* RNADE: 'RNADE: The real-valued neural autoregressive density-estimator' Benigno Uria, Iain Murray, Hugo Larochelle. 2014. [[Arxiv]](https://arxiv.org/abs/1306.0186).
+* MADE: 'MADE: Masked Autoencoder for Distribution Estimation' Mathieu Germain, Karol Gregor, Iain Murray, Hugo Larochelle. 2015. [[Arxiv]](https://arxiv.org/abs/1502.03509).
+* Pixel RNN: 'Pixel Recurrent Neural Networks' Aaron van den Oord, Nal Kalchbrenner, Koray Kavukcuoglu. 2016. [[Arxiv]](https://arxiv.org/abs/1601.06759).
+* PixelCNN: 'Conditional Image Generation with PixelCNN Decoders' Aaron van den Oord, Nal Kalchbrenner, Koray Kavukcuoglu. 2016. [[Arxiv]](https://arxiv.org/abs/1606.05328).
+* PixelCNN++: 'PixelCNN++: Improving the PixelCNN with Discretized Logistic Mixture Likelihood and Other Modifications' Tim Salimans, Andrej Karpathy, Xi Chen, Diederik P. Kingma. 2017. [[Arxiv]](https://arxiv.org/abs/1701.05517).
+* WaveNet: 'WaveNet: A Generative Model for Raw Audio' Aaron van den Oord, Sander Dieleman, Heiga Zen, Karen Simonyan, Oriol Vinyals, Alex Graves, Nal Kalchbrenner, Andrew Senior, Koray Kavukcuoglu. 2016. [[Arxiv]](https://arxiv.org/pdf/1609.03499.pdf).
+
 
 ## Normalizing Flows.
-* ['Glow: Generative Flow with Invertible 1x1 Convolutions' Kingma D Dhariwal P. 2018](https://arxiv.org/abs/1807.03039)
-* ['NICE: Non-linear Independent Components Estimation' Dinh L Krueger D Bengio Y. 2014](https://arxiv.org/abs/1410.8516)
-* ['Density estimation using Real NVP' Dinh L Sohl-Dickstein J Bengio S. 2016](https://arxiv.org/abs/1605.08803)
-
+* Glow: 'Glow: Generative Flow with Invertible 1x1 Convolutions' Kingma D Dhariwal P. 2018. [[Arxiv]](https://arxiv.org/abs/1807.03039).
+* NICE:'NICE: Non-linear Independent Components Estimation' Dinh L Krueger D Bengio Y. 2014. [[Arxiv]](https://arxiv.org/abs/1410.8516).
+* 'Density estimation using Real NVP' Dinh L Sohl-Dickstein J Bengio S. 2016. [[Arxiv]](https://arxiv.org/abs/1605.08803).
 * VAE and Normalizing Flows:
-  * ['Improving Variational Auto-Encoders using Householder Flow' Tomczak J Welling M. 2016](https://arxiv.org/abs/1611.09630)
-  * ['Flow-GAN: Combining Maximum Likelihood and Adversarial Learning in Generative Models' Grover A Dhar M Ermon S. 2017](https://arxiv.org/abs/1505.05770)
-
-* GAN and Normalizing Flows:
-  * ['Variational Inference with Normalizing Flows' Rezende D Mohamed S. 2015](https://arxiv.org/abs/1705.08868)
+  * 'Improving Variational Auto-Encoders using Householder Flow' Tomczak J Welling M. 2016. [[Arxiv]](https://arxiv.org/abs/1611.09630).
+  * 'Flow-GAN: Combining Maximum Likelihood and Adversarial Learning in Generative Models' Grover A Dhar M Ermon S. 2017. [[Arxiv]](https://arxiv.org/abs/1505.05770).
+* GAN and Normalizing Flows: 'Variational Inference with Normalizing Flows' Rezende D Mohamed S. 2015. [[Arxiv]](https://arxiv.org/abs/1705.08868).
 
 ## Evaluation of Generative Models.
-* ['A note on the evaluation of generative models' Theis L Oord A Bethge M. 2015](https://arxiv.org/abs/1511.01844)
-* ['Pros and Cons of GAN Evaluation Measures' Borji A. 2018](https://http://arxiv.org/abs/1802.03446)
-* [Stanford CS236: Deep Generative Models: Evaluating Generative Models](http://cs236.stanford.edu/assets/slides/cs236_lecture11.pdf)
+* Inception Score: 'Improved Techniques for Training GANs' Tim Salimans, Ian Goodfellow, Wojciech Zaremba, Vicki Cheung, Alec Radford, Xi Chen. 2016. [[Arxiv]](https://arxiv.org/abs/1606.03498). 
+* Frechet Inception Distance: 'GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium' Martin Heusel, Hubert Ramsauer, Thomas Unterthiner, Bernhard Nessler, Sepp Hochreiter. 2017. [[Arxiv]](https://arxiv.org/abs/1706.08500). 
+* 'A note on the evaluation of generative models' Theis L Oord A Bethge M. 2015. [[Arxiv]](https://arxiv.org/abs/1511.01844).
+* 'Stanford CS236: Deep Generative Models: Evaluating Generative Models' [[PDF]](http://cs236.stanford.edu/assets/slides/cs236_lecture11.pdf).
 
 
 
