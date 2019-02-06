@@ -3,19 +3,19 @@ This is a repository papers and code on different generative models.
 
 ## GANs.
 * Original GAN: 'Generative Adversarial Networks' Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio. 2014. [[Arxiv]](https://arxiv.org/pdf/1406.2661.pdf).
-* DCGAN: 'Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks' Alec Radford, Luke Metz, Soumith Chintala. 2016. [[Arxiv]](https://arxiv.org/abs/1511.06434). [[Code]](https://github.com/AdalbertoCq/Generative-Models/blob/master/GANs/DCGAN.py).
+* DCGAN: 'Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks' Alec Radford, Luke Metz, Soumith Chintala. 2016. [[Arxiv]](https://arxiv.org/abs/1511.06434). [[Code]](https://github.com/AdalbertoCq/GANs/blob/master/GANs/DCGAN.py).
 
 * __Cost function improvement proposals__:
   * CGAN: 'Conditional Generative Nets' Mehdi Mirza, Simon Osindero. 2014. [[Arxiv]](https://arxiv.org/abs/1411.1784). [[Code]]().
   * ACGAN: 'Conditional Image Synthesis With Auxiliary Classifier GANs' Augustus Odena, Christopher Olah, Jonathon Shlens. 2016. [[Arxiv]](https://arxiv.org/abs/1610.09585). [[Code]]().
   * InfoGAN: 'InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets' Xi Chen, Yan Duan, Rein Houthooft, John Schulman, Ilya Sutskever, Pieter Abbeel. 2016. [[Arxiv]](https://arxiv.org/abs/1606.03657). [[Code]]().
-  * LSGAN: 'Least Squares Generative Adversarial Networks' Xudong Mao, Qing Li, Haoran Xie, Raymond Y.K. Lau, Zhen Wang, Stephen Paul Smolley. 2017. [[Arxiv]](https://arxiv.org/abs/1611.04076). [[Code]](https://github.com/AdalbertoCq/Generative-Models/blob/master/GANs/LSGAN.py).
-  * WGAN: 'Wassertein GAN' Martin Arjovsky, Soumith Chintala, Léon Bottou. 2017. [[Arxiv]](https://arxiv.org/abs/1701.07875). [[Code]](https://github.com/AdalbertoCq/Generative-Models/blob/master/GANs/WGAN.py).
-  * WGAN-GP: 'Improved Training of Wasserstein GANs' Ishaan Gulrajani, Faruk Ahmed, Martin Arjovsky, Vincent Dumoulin, Aaron Courville. 2017. [[Arxiv]](https://arxiv.org/abs/1704.00028). [[Code]](https://github.com/AdalbertoCq/Generative-Models/blob/master/GANs/WGAN_GP.py).
+  * LSGAN: 'Least Squares Generative Adversarial Networks' Xudong Mao, Qing Li, Haoran Xie, Raymond Y.K. Lau, Zhen Wang, Stephen Paul Smolley. 2017. [[Arxiv]](https://arxiv.org/abs/1611.04076). [[Code]](https://github.com/AdalbertoCq/GANs/blob/master/GANs/LSGAN.py).
+  * WGAN: 'Wassertein GAN' Martin Arjovsky, Soumith Chintala, Léon Bottou. 2017. [[Arxiv]](https://arxiv.org/abs/1701.07875). [[Code]](https://github.com/AdalbertoCq/GANs/blob/master/GANs/WGAN.py).
+  * WGAN-GP: 'Improved Training of Wasserstein GANs' Ishaan Gulrajani, Faruk Ahmed, Martin Arjovsky, Vincent Dumoulin, Aaron Courville. 2017. [[Arxiv]](https://arxiv.org/abs/1704.00028). [[Code]](https://github.com/AdalbertoCq/GANs/blob/master/GANs/WGAN_GP.py).
   * EBGAN: 'Energy-based Generative Adversarial Network' Junbo Zhao, Michael Mathieu, Yann LeCun. 2016. [[Arxiv]](https://arxiv.org/abs/1609.03126). [[Code]]().
   * BEGAN: 'BEGAN: Boundary Equilibrium Generative Adversarial Networks' David Berthelot, Thomas Schumm, Luke Metz
 . 2017. [[Arxiv]](https://arxiv.org/abs/1703.10717). [[Code]]().
-  * RSGAN & RaSGAN: 'The relativistic discriminator: a key element missing from standard GAN' Alexia Jolicoeur-Martineau. 2018. [[Arxiv]](https://arxiv.org/abs/1807.00734). [[RaSGAN Code]](https://github.com/AdalbertoCq/Generative-Models/blob/master/GANs/RaSGAN.py). [[RaLSGAN Code]](https://github.com/AdalbertoCq/Generative-Models/blob/master/GANs/RaLSGAN.py). [[RaSGAN-GP Code]](https://github.com/AdalbertoCq/Generative-Models/blob/master/GANs/RaSGAN_FP.py).
+  * RSGAN & RaSGAN: 'The relativistic discriminator: a key element missing from standard GAN' Alexia Jolicoeur-Martineau. 2018. [[Arxiv]](https://arxiv.org/abs/1807.00734). [[RaSGAN Code]](https://github.com/AdalbertoCq/GANs/blob/master/GANs/RaSGAN.py). [[RaLSGAN Code]](https://github.com/AdalbertoCq/GANs/blob/master/GANs/RaLSGAN.py). [[RaSGAN-GP Code]](https://github.com/AdalbertoCq/GANs/blob/master/GANs/RaSGAN_FP.py).
   * DRAGAN: 'On Convergence and Stability of GANs' Naveen Kodali, Jacob Abernethy, James Hays, Zsolt Kira
 . 2017. [[Arxiv]](https://arxiv.org/abs/1705.07215). [[Code]]().
   * Spectral GAN: 'Spectral Normalization for Generative Adversarial Networks' Takeru Miyato, Toshiki Kataoka, Masanori Koyama, Yuichi Yoshida. 2018. [OpenReview](https://openreview.net/forum?id=B1QRgziT-). [[Code]]().
